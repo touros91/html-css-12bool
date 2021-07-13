@@ -1,0 +1,39 @@
+@media screen and (max-width: 480px) {
+    .container .row .col-xs-1,
+    .container .row .col-xs-2,
+    .container .row .col-xs-3,
+    .container .row .col-xs-4,
+    .container .row .col-xs-5,
+    .container .row .col-xs-6,
+    .container .row .col-xs-7,
+    .container .row .col-xs-8,
+    .container .row .col-xs-9,
+    .container .row .col-xs-10,
+    .container .row .col-xs-11,
+    .container .row .col-xs-12 {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .container .row .col-md-1,
+    .container .row .col-md-2,
+    .container .row .col-md-3,
+    .container .row .col-md-4,
+    .container .row .col-md-5,
+    .container .row .col-md-6,
+    .container .row .col-md-7,
+    .container .row .col-md-8,
+    .container .row .col-md-9,
+    .container .row .col-md-10,
+    .container .row .col-md-11,
+    .container .row .col-md-12 {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    [class*="col-"] {
+            background-color: #006cfa;
+    }
+}
