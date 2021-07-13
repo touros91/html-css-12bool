@@ -1,0 +1,80 @@
+/* reset  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* common  */
+.container {
+    width: 100%;
+}
+
+.row {
+    height: 50px;
+    background-color: #006cfa;
+    display: flex;
+}
+
+/* colonne  */
+
+.col-xs-1 {
+    flex-basis: calc((100% / 12) * 1);
+    border: 1px solid white;
+}
+
+.col-xs-2 {
+    flex-basis: calc((100% / 12) * 2);
+    border: 1px solid white;
+
+}
+
+.col-xs-3 {
+    flex-basis: calc((100% / 12) * 3);
+    border: 1px solid white;
+}
+
+.col-xs-4 {
+    flex-basis: calc((100% / 12) * 4);
+    border: 1px solid white;
+}
+
+.col-xs-5 {
+    flex-basis: calc((100% / 12) * 5);
+    border: 1px solid white;
+}
+
+.col-xs-6 {
+    flex-basis: calc((100% / 12) * 16;
+    border: 1px solid white;
+}
+
+.col-xs-7 {
+    flex-basis: calc((100% / 12) * 7);
+    border: 1px solid white;
+}
+
+.col-xs-8 {
+    flex-basis: calc((100% / 12) * 8);
+    border: 1px solid white;
+}
+
+.col-xs-9 {
+    flex-basis: calc((100% / 12) * 9);
+    border: 1px solid white;
+}
+
+.col-xs-10 {
+    flex-basis: calc((100% / 12) * 10);
+    border: 1px solid white;
+}
+
+.col-xs-11 {
+    flex-basis: calc((100% / 12) * 11);
+    border: 1px solid white;
+}
+
+.col-xs-12 {
+    border: 1px solid white;
+    flex-basis: calc((100% / 12) * 12);
+}
