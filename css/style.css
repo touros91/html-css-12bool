@@ -20,3 +20,17 @@ h3 {
     padding: 10px;
 }
 
+.row-padding {
+    padding: 6px;
+}
+.nested-box {
+    background-color: #01e165;
+    margin: 1px;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
