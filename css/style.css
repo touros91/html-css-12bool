@@ -22,7 +22,7 @@ h3 {
 .box {
     color: white;
     text-align: center;
-    padding: 10px;
+    line-height: 40px;
 }
 
 .row-padding {
@@ -31,8 +31,7 @@ h3 {
 
 .nested-box {
     background-color: #01e165;
-    margin: 1px;
-    border: none;
+    border: 1px solid #006cfa;
     color: white;
     text-align: center;
     padding: 5px;
